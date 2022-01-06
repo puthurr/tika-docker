@@ -27,6 +27,10 @@ docker build -f Dockerfile -t tika/serverX .
 
 ## Build the docker image using Azure ACR
 
+```
+ACR_NAME=<registry-name>
+az acr build --image tika/serverX --registry $ACR_NAME --file Dockerfile .
+```
 
 # Updating to a new Server JRE 
 
