@@ -1,7 +1,3 @@
-# Welcome 
-
-This repository contains two docker images for Apache Tika 1.x and 2.x 
-
 # tika-v1
 
 Contains a deployment of a custom tika 1.x server as a docker image. Please refer to https://github.com/puthurr/tika for more details.
